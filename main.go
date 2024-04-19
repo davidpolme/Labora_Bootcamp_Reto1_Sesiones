@@ -91,6 +91,7 @@ func adminMenu() {
 }
 
 func createFile() {
+	//TODO CONTAR CARÁCTERES
 	fmt.Println("Escriba el contenido del archivo")
 	var content string
 	fmt.Scanln(&content)
